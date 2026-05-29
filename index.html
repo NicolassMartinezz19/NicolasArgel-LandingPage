@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NICOLÁS ARGEL - LANDING PAGE</title>
+    <link rel="icon" href="img/logonico.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#sobre-mi">
+                    <img src="img/logonico.png" alt="Logo NICO&CO">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto" class="btn-nav">Hablemos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi" class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy Nicolás, pero puedes llamarme Nico.</h1>
+            <p><strong>Soy un joven Tecnólogo en Gestión de la Comunicación Multimedia y Técnico en Elaboración de Audiovisuales orientado a resultados, apasionado por integrar la estrategia con el diseño. Soy una persona que se destaca por la disciplina, la actitud positiva ante los desafíos y el firme propósito de aportar valor en cada reto profesional.</strong></p>
+            <p><strong>Además de mi trabajo creativo, soy el creador de NICO&CO, una agencia de comunicación la cúal se especializa en la creación de contenido y administración de redes sociales. Nuestro principal objetivo es que las personas puedan retomar esos sueños y hacerlos realidad, construyendo una comunicación clara, honesta y capaz de dejar huella en el mundo.</strong></p>
+            <a href="#proyectos" class="btn-primary">Ver mis proyectos</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/fotonico.png" alt="Retrato de Nicolas Argel">
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="gallery-grid">
+            
+            <div class="project-card">
+                <img src="img/infografiahamlet.jpg" alt="Infografía de Hamlet">
+                <div class="project-info">
+                  <h3>Infografía de Hamlet</h3>
+                    <p>Se realizo un diseño inspirado en la obra con esta infografía combinando la narrativa clásica con un impacto visual mediante <strong>Illustrator y Photoshop.</strong></p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/piezajadel.jpg" alt="Rebranding Jadel">
+                <div class="project-info">
+                  <h3>Rebranding Jadel</h3>
+                    <p>Se realizó el rediseño de <strong>la identidad visual de la marca</strong>, además de la propuesta de un nuevo logotipo y la gestión de marca adaptada para las redes sociales de la joyería.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/portadarevista.png" alt="Revista Pixelmix">
+                <div class="project-info">
+                  <h3>Revista Pixelmix - Artículo de Cultura y Opinión </h3>
+                    <p>Entrevistador y redactor del artículo además del apoyo presentado en la diagramación de la nota, utilizando <strong>InDesign</strong> para su diseño enfocándome en la cultura digital y la juventud.</p>
+					<a href="https://heyzine.com/flip-book/14a408b0a0.html" target="_blank" rel="noopener noreferrer" class="project-link">Leer revista ➔</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/logosintantocuento.png" alt="Podcast Sin Tanto Cuento">
+                <div class="project-info">
+                  <h3>Podcast "Sin Tanto Cuento"</h3>
+                    <p>Dirección de arte para las piezas gráficas del podcast, producción del audio en <strong>Audition</strong> y la distribución a través de la herramienta <strong>Spotify for Creators.</strong> </p>
+					<a href="https://open.spotify.com/show/1s3phy78LY4UMEJDdr4F4J?si=07b54956220a4901" target="_blank" rel="noopener noreferrer" class="project-link">Escuchar podcast ➔</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/logoecr.png" alt="Banners Campus Virtual">
+                <div class="project-info">
+                  <h3>Banners Campus Virtual</h3>
+                    <p>Piezas gráficas siguendo con los lineaminentos de la universidad, adaptando el contenido presentado en cada programa, materias y colores para <strong>los pregrados y postgrados de la ECR.</strong></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="portfolio-cta">
+            <h3>¿Quieres conocer más a profundidad?</h3>
+            <p>Te invito a explorar mi portafolio, en donde podrás conocer más a mayor profundidad estos proyectos, qué servicios ofrezco y en qué otros medios podrás contactarme.</p>
+            <a href="https://heyzine.com/flip-book/aafb7022a4.html" target="_blank" rel="noopener noreferrer" class="btn-secondary">Ver Portafolio Completo</a>
+        </div>
+
+    </section>
+
+    <section id="contacto">
+        <div class="contact-container">
+            <h2 class="section-title">¡Hagamos realidad tu idea!</h2>
+            <p>Estoy listo para escucharte y apoyarte en todo lo que pueda...</p>
+            
+            <form action="mailto:Nicolass.Martinezz19@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+                <div class="input-group">
+                    <input type="text" name="Nombre" placeholder="Tu Nombre" required>
+                    <input type="email" name="Correo" placeholder="Tu Correo Electrónico" required>
+                </div>
+                <textarea name="Mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+            
+        </div>
+    </section>
+    
+    <footer>
+        <p><strong>© 2026 Nicolás Argel Martínez | NICO&CO.</strong></p>
+    </footer>
+
+</body>
+</html>
